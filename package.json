@@ -9,11 +9,6 @@
   },
   "license": "UNLICENSED",
   "private": true,
-  "author": {
-    "name": "Wout Heijnen",
-    "email": "woutheijnen@hotmail.com",
-    "url": "https://github.com/woutheijnen"
-  },
   "main": "public/electron.js",
   "repository": {
     "type": "git",
@@ -24,11 +19,7 @@
     "react": "react-scripts start",
     "electron": "electron .",
     "build": "react-scripts build && electron-builder",
-    "deploy": "git fetch --all && git reset --hard origin/master && npm install && npm run build",
-    "test": "react-scripts test",
-    "clear-modules": "rm -f ./package-lock.json && rm -r -f ./node_modules",
-    "install:clean": "npm run clear-modules && npm install",
-    "update": "ncu -u -a"
+    "test": "react-scripts test"
   },
   "dependencies": {
     "@material-ui/core": "3.6.2",
